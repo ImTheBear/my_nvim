@@ -30,7 +30,7 @@ return {
         ['<C-Space>'] = cmp.mapping.complete(),
         ['<C-e>'] = cmp.mapping.abort(),
         -- Use Tab to select the next item and confirm
-        ['<Tab>'] = cmp.mapping(function(fallback)
+        ['<C-a>'] = cmp.mapping(function(fallback)
           if cmp.visible() then
             cmp.select_next_item()
           elseif luasnip.expand_or_jumpable() then
