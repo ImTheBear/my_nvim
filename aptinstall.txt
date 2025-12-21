@@ -1,0 +1,4 @@
+sudo apt install neovim
+sudo apt install python3-neovim
+fd-find
+sudo apt-get install ripgrep
